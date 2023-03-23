@@ -1,0 +1,11 @@
+#!/bin/sh  
+# a linha acima declara o bin que executará o script
+          
+clear                
+# a linha acima executa um comando shell que limpa a tela
+
+echo "Olá mundo!"    
+
+# a linha acima escreve a mensagem "Olá mundo"
+
+# comentários são feitos com '#'
