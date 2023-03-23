@@ -1,2 +1,2 @@
-# scripts-basico-python
-Alguns scripts básicos desenvolvidos em Python
+# scripts-basicos
+Seleção de scripts básicos 
