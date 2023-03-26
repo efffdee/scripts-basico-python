@@ -16,6 +16,17 @@ echo "Pesquisa concluída!"
 ///////////////////////////////////////////////////////////////////////////////////
 
 02 - whereis 
+
+```bash
+#!/bin/bash
+comando="ls"
+whereis $comando
+```
+
+Neste caso, a variável "$comando" está armazenando o nome do comando "ls". O comando "whereis" é então usado para encontrar a localização do comando e esta informação é exibida na saída do script.
+
+Espero que isso ajude! Se você tiver mais perguntas, não hesite em perguntar.
+
 03 - locate
 04 - grep
 05 - type
