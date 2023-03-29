@@ -28,6 +28,22 @@ Neste caso, a variável "$comando" está armazenando o nome do comando "ls". O c
 Espero que isso ajude! Se você tiver mais perguntas, não hesite em perguntar.
 
 03 - locate
+
+#!/usr/bin/env bash
+
+locate -i "$1"
+
+exit 0
+
+Explicação do código:
+
+- A primeira linha é um shebang, que é usado para indicar para o sistema operacional que este arquivo é um script em bash.
+
+- A segunda linha inclui o comando "locate", que irá procurar o arquivo que você precisa. O parâmetro "-i" é usado para pesquisar sem distinção entre maiúsculas e minúsculas.
+
+- A terceira linha é "exit 0", que indica que o script foi executado com sucesso.
+
+
 04 - grep
 05 - type
 06 - apropos
