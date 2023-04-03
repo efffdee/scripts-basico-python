@@ -45,5 +45,25 @@ Explicação do código:
 
 
 04 - grep
+
+#!/bin/bash
+
+# Definir o padrão a ser pesquisado
+padrao="exemplo"
+
+# Pesquisar o padrão no arquivo "arquivo.txt"
+if grep -q "$padrao" "arquivo.txt"; then
+    echo "O padrão foi encontrado no arquivo."
+else
+    echo "O padrão não foi encontrado no arquivo."
+fi
+Explicação do script:
+
+#!/bin/bash: especifica que o interpretador de comandos a ser usado é o bash.
+padrao="exemplo": define o padrão a ser pesquisado no arquivo.
+if grep -q "$padrao" "arquivo.txt"; then: usa o comando grep para pesquisar o padrão no arquivo "arquivo.txt". A opção -q faz com que o grep seja executado em modo silencioso, sem imprimir o resultado da pesquisa na saída padrão. Se o padrão for encontrado, o comando grep retorna 0 e o bloco then é executado; caso contrário, o comando grep retorna um valor diferente de 0 e o bloco else é executado.
+echo "O padrão foi encontrado no arquivo.": imprime uma mensagem na saída padrão se o padrão for encontrado no arquivo.
+echo "O padrão não foi encontrado no arquivo.": imprime uma mensagem na saída padrão se o padrão não for encontrado no arquivo.
+
 05 - type
 06 - apropos
